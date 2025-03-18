@@ -117,22 +117,12 @@ Za svaki zahtjev potrebno je ispuniti sljedeću tablicu:
 
 
 Identifikator | Jedinstveni identifikator zahtjeva.
-Zahtjev | Opis zahtjeva u obliku „Sustav će omogućiti
-<funkcionalnost> <objekt> uz <ograničenja>“. Stil
-pisanja treba biti ujednačen. Prilikom formulacije
-vodite se prihvaćenim smjernicama za definiranje
-zahtjeva, kao npr. onima navedenim u INCOSE
-Smjernicama za pisanje zahtjeva.
 -|-
-Obrazloženje | Obrazloženje zašto zahtjev postoji/zašto je
-potreban.
-Način provjere | Kriterij provjere ili testni scenarij koji će
-omogućiti utvrđivanje je li zahtjev ispunjen ili
-nije.
-Prioritet [1-5] | Prioritet zahtjeva (1 – najveći prioritet, 5 najmanji
-prioritet)
-Izvor/Porijeklo | Naziv dokumenta kojim je zahtjev propisan ili
-dionika koji je podnio zahtjev.
+Zahtjev | Opis zahtjeva u obliku „Sustav će omogućiti <funkcionalnost> <objekt> uz <ograničenja>“. Stil pisanja treba biti ujednačen. Prilikom formulacije vodite se prihvaćenim smjernicama za definiranje zahtjeva, kao npr. onima navedenim u INCOSE Smjernicama za pisanje zahtjeva.
+Obrazloženje | Obrazloženje zašto zahtjev postoji/zašto je potreban.
+Način provjere | Kriterij provjere ili testni scenarij koji će omogućiti utvrđivanje je li zahtjev ispunjen ili nije.
+Prioritet [1-5] | Prioritet zahtjeva (1 – najveći prioritet, 5 najmanji prioritet)
+Izvor/Porijeklo | Naziv dokumenta kojim je zahtjev propisan ili dionika koji je podnio zahtjev.
 
 ### Dinamika realizacije zahtjeva
 
