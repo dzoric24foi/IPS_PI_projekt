@@ -36,9 +36,10 @@ prihoda i rashoda po kategorijama.
 
 ### Definicije, akronimi i skraćenice
 
-Termin | objašnjenje
+Termin | Objašnjenje
 -|-
 SPOF | Sustav za praćenje osobnih financija
+PBZ | Privredna Banka Zagreb
 
 
 ### Reference 
@@ -55,29 +56,22 @@ Ukratko opišite kako je ostatak dokumenta organiziran i što sadrži.
 
 ### Perspektiva proizvoda
 
-Stavite softversko rješenje u kontekst i odnos s drugim povezanim
-sustavima. Navedite je li softversko rješenje neovisno i u potpunosti
-samostalno, ili predstavlja dio većeg sustava (što je čest slučaj), ili je
-zamjena za neki postojeći sustav. Ako je dio većeg sustava potrebno je
-staviti u odnos zahtjeve cjelokupnog sustava sa zahtjevima našeg
-softverskog rješenja, te jasno definirati sučelja između njih.
-Osim odnosa s eventualnim nadređenim sustavom, navesti i vanjske
-sustavima i softver koji vaše softversko rješenje koristi. To mogu biti npr.:
-DBMS, operacijski sustav, web servisi i API-ji.
-U slučaju da softversko rješenje izravno koristi hardver i komunikacijske
-tehnologije opišite i značajke sučelja s njima (vrsta hardvera, port,
-komunikacijski protokoli, bluetooth, NFC, IC, TCP, format razmjene
-podataka i sl.).
+SPOF je software koji se može koristiti kao alternativa
+izvoda bankovnih aplikacija gdje, u slučaju velikog broja transakcija,
+korisnik vrlo teško može doći do relevantnih informacija o potrošnji.
+U konkretnom slučaju PBZ aplikacije korisnik ima mogućnost pretrage pojedinih transakcija
+i statistiku prihoda i rashoda na mjesečnoj bazi, ali aplikacija ne pruža 
+mogućnost kategorizacije troškova ili dublje statističke analize.
+
+SPOF je standalone softversko riješenje koje ne ovisi o direktnim integracijama
+sa drugim softwareom, unos prihoda i rashoda ovisi isključivo o korisniku.
 
 ### Funkcije proizvoda
 
-Navedite glavne funkcije koje softversko rješenje treba sadržavati, bez
-ulaženja u detalje svake od tih funkcija (detaljni zahtjevi će biti sadržani
-u poglavlju 3). Funkcije trebaju biti organizirane i opisane na način da već
-pri prvom čitanju budu razumljive svim čitateljima dokumenta,
-uključujući i naručitelja/korisnika. Za formulaciju funkcija softverskog
-rješenja na ovoj razini može poslužiti specifikacija više razine, npr.
-specifikacija korisničkih zahtjeva (ako postoji).
+Funkcionalnosti SPOF aplikacije obuhvaćaju unos novčane vrijednosti i kategorije 
+pojedinih prihoda i rashoda, pregled unesenih prihoda i rashoda, prikaz 
+statistike prihoda i rashoda 
+
 
 ### Karakteristike korisnika
 
