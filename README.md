@@ -4,24 +4,42 @@
 
 ### Svrha
 
-Opišite svrhu SRS dokumenta (ne softverskog rješenja). Navedite kome
-je namijenjen dokument, tj. tko treba dokument čitati i razumjeti.
+Ovaj dokument prezentira skup softverskih zahtjeva namjenjen razvoju
+i validaciji softvera za praćenje osobnih financija. Zahtjevi su postavljeni 
+djelomično od strane kolegija Programsko Inženjerstvo na Fakultetu Organizacije i Informatike,
+koji određuju format solucije, a djelomično od strane studenta koji ima
+slobodan izbor zahtjeva koje će obraditi u sklopu kolegija.
+
+Ciljna skupina su osoblje fakulteta koji će ocjenjivati studentski rad, i
+student koji će se referencirati na skup zahtjeva u budućim zadatcima koje
+treba obaviti u sklopu kolegija. 
+
+Struktura dokumenta se temlji na predlošku IEEE 830-1998
+Recommended Practice for Software Requirements Specifications
+
 
 ### Opseg
 
-Ukratko objasnite problemsku domenu kojom se rješenje bavi. U kojem
-kontekstu će se softversko rješenje upotrebljavati? Dajte ime/naziv
-softverskom rješenju kojim će ga se u ostatku dokumenta moći
-naslovljavati, te po potrebi verziju. Objasnite radi li se o potpuno novom
-rješenju ili nadogradnji. Navedite što će softver raditi i što neće raditi.
-Koje dobrobiti i unaprjeđenja očekujemo da će softversko rješenje
-donijeti.
+U doba pisanja ovoga dokumenta problem koji je nastao u trenutnoj
+Hrvatskoj ekonomiji, konkretno financijskoj situaciji pojedinca i obitelji
+je značajna promjena cijena i omjera cijena određenih usluga i dobara. Uvođenje
+EUR umijesto HRK je još jedan faktor koji doprinosi teškoćama pri subjektivnoj
+procijeni vrijednodnosti dobara i usluga. 
+
+Sustav za praćenje osobnih financija ( u daljnjem tekstu SPOF), riješenje opisano u ovom dokumentu, omogućuje
+korisniku da prati prihode i rashode pojedinca ili kućanstva, te na taj način potiče
+optimizaciju rashoda i osvješćivanje potrošnje po kategorijama.
+
+SPOF podržava unos prihoda i rashoda kroz sučelje, te osnovnu statističku analizu
+prihoda i rashoda po kategorijama.
+
 
 ### Definicije, akronimi i skraćenice
 
-Definirajte osnovne pojmove, akronime i skraćenice koji se koriste u
-specifikaciji, a koje su potrebne da bi se moglo ispravno razumjeti SRS
-dokument.
+Termin | objašnjenje
+-|-
+SPOF | Sustav za praćenje osobnih financija
+
 
 ### Reference 
 
