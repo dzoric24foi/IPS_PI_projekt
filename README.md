@@ -157,93 +157,81 @@ Način provjere | -
 Prioritet [1-5] | 1
 Izvor/Porijeklo | Nastavnici na kolegiju Programsko inženjerstvo
 
-Identifikator | FZ-5
--|-
-Zahtjev | Sustav će omogućiti generiranje izvještaja
-Obrazloženje | SPOF mora imati mogućnost generiranja izvještaja po kategoriji i vremenskom razdoblju, izvještaji se kreiraju kroz formu na grafičkom sučelju.
-Način provjere | Forma ne omogućava slobodan unos vrijednosti, u slučaju da nema podataka u periodu ili kategoriji izvještaj je prazan
-Prioritet [1-5] | 1
-Izvor/Porijeklo | Nastavnici na kolegiju Programsko inženjerstvo
-
 Identifikator | FZ-6
 -|-
-Zahtjev | Sustav će omogućiti grafički prikaz usporednih trendova prihoda i rashoda 
-Obrazloženje | SPOF mora imati mogućnost grafičkog prikaza usporednih trendova prihoda i rashoda u jednom grafu.
+Zahtjev | Sustav će omogućiti pie-chart prikaz prihoda
+Obrazloženje | SPOF mora imati mogućnost grafičkog prikaza prihoda u obliku pie-charta.
 Način provjere | -
 Prioritet [1-5] | 1
 Izvor/Porijeklo | Nastavnici na kolegiju Programsko inženjerstvo
 
 Identifikator | FZ-7
 -|-
-Zahtjev | Sustav će omogućiti generiranje izvještaja
-Obrazloženje | SPOF mora imati mogućnost generiranja izvještaja po kategoriji i vremenskom razdoblju, izvještaji se kreiraju kroz formu na grafičkom sučelju.
-Način provjere | Forma ne omogućava slobodan unos vrijednosti, u slučaju da nema podataka u periodu ili kategoriji izvještaj je prazan
+Zahtjev | Sustav će omogućiti grafički prikaz usporednih trendova prihoda i rashoda 
+Obrazloženje | SPOF mora imati mogućnost grafičkog prikaza usporednih trendova prihoda i rashoda kroz vrijeme u jednom grafu.
+Način provjere | -
+Prioritet [1-5] | 1
+Izvor/Porijeklo | Nastavnici na kolegiju Programsko inženjerstvo
+
+
+Identifikator | FZ-8
+-|-
+Zahtjev | Sustav će omogućiti grafički prikaz usporednih trendova prihoda po kategorijama
+Obrazloženje | SPOF mora imati mogućnost grafičkog prikaza usporednih trendova prihoda po kategorijama kroz vrijeme u jednom grafu.
+Način provjere | -
 Prioritet [1-5] | 2
 Izvor/Porijeklo | Nastavnici na kolegiju Programsko inženjerstvo
 
-Identifikator | FZ-8
+Identifikator | FZ-9
+-|-
+Zahtjev | Sustav će omogućiti grafički prikaz usporednih trendova rashoda po kategorijama
+Obrazloženje | SPOF mora imati mogućnost grafičkog prikaza usporednih trendova rashoda po kategorijama kroz vrijeme u jednom grafu.
+Način provjere | -
+Prioritet [1-5] | 2
+Izvor/Porijeklo | Nastavnici na kolegiju Programsko inženjerstvo
+
+Identifikator | FZ-10
 -|-
 Zahtjev | Sustav će omogućiti generiranje izvještaja
 Obrazloženje | SPOF mora imati mogućnost generiranja izvještaja po kategoriji i vremenskom razdoblju, izvještaji se kreiraju kroz formu na grafičkom sučelju.
 Način provjere | Forma ne omogućava slobodan unos vrijednosti, u slučaju da nema podataka u periodu ili kategoriji izvještaj je prazan
-Prioritet [1-5] | 2
+Prioritet [1-5] | 1
 Izvor/Porijeklo | Nastavnici na kolegiju Programsko inženjerstvo
+
 
 ### Dinamika realizacije zahtjeva
 
-Navedite hoće li svi zahtjevi biti realizirani u inicijalnoj verziji softvera, ili
-će neki biti ostavljeni za buduće verzija. Navedite ukoliko postoje još neki
-zahtjevi koje se planira realizirati u budućnosti
+U procesu razvoja aplikacije SPOF zahtjevi najvećeg prioriteta će biti
+razvijeni,dok će zahtjevi sa nižim prioritetom biti razvijeni u slučaju da 
+su ostali zahtjevi zadovoljeni prije roka za predaju projekta.
 
 ## Nefunkcionalni zahtjevi
 
 ### Izgled softvera
 
-Navedite zahtjeve (ukoliko postoje) koji su povezani s izgledom i
-vizualnim stilom softvera. To može uključiti zahtjeve da se npr. koristi
-formalan i korporativan stil (u slučaju poslovne aplikacije), ili zaigran stil
-(npr. računalna igra za djecu); zahtjev za korištenjem konkretne palete
-boja ili kontrola kako bi aplikacija bila u skladu s brendiranjem poduzeća
-i sl.
+NFZ1 - Sustav će interakciju s korisnikom provoditi preko grafičkog sučelja.
+NFZ2 - Sustav će za prikaz sučelja koristiti boje u skladu sa vizualnim identitetom Fakulteta Organizacije i Informatike
 
 ### Upotrebljivost softvera
 
-Navedite zahtjeve (ukoliko postoje) koji su povezani s lakoćom učenja i
-korištenja softvera, prilagodbom za osobe s poteškoćama, lokalizacijom.
-To može uključiti zahtjeve vezane uz krivulju učenja, brzinu korištenja
-aplikacije (npr. brzina unosa podataka), lakoću pamćenja opcija softvera,
-frekvenciju grešaka koje korisnik napravi u radu sa softverom,
-mogućnost odabira jezika, mogućnost korištenja od strane slijepih osoba
-i sl.
+NFZ-3 – Sustav će ponuditi mehanizme koji će smanjiti mogućnost grešaka prilikom unosa rezultata
+evaluacije od strane nastavnika.
 
 ### Performanse softvera
 
-Navedite zahtjeve (ukoliko postoje) koji su povezani s performansama
-softvera. To može uključiti zahtjeve vezane uz brzinu procesiranja
-zadataka, odziv, preciznost rezultata, kapacitet pohrane, skalabilnost,
-dostupnost sustava i sl.
+NFZ-4 – Sustav će osigurati preciznost za decimalne brojeve na razini 2 decimalna mjesta.
 
 ### Izvođenje softvera i okruženje
 
-Navedite zahtjeve (ukoliko postoje) koji su povezani s izvođenjem
-softvera i okruženjem u kojem se softver izvodi. To može uključivati
-zahtjeve vezane uz fizičko okruženje u kojem se nalazi sustav (glasno
-okruženje, jako osvjetljenje, prašina i sl.), drugi postojeći sustavi unutar
-kojih se softver treba izvoditi ili s kojima treba imati interakciju
-(operacijski sustav, drugi softver od kojeg preuzimamo podatke ili ih
-šaljemo).
+NFZ-7 – Sustav treba raditi na računalima s instaliranim Windows 10 ili novijim operacijskim sustavom.
 
 ### Sigurnost i privatnost
 
-Navedite zahtjeve (ukoliko postoje) koji su povezani sa pitanjima
-sigurnosti i privatnosti podataka, te standardima i propisima vezanima
-uz tu problematiku. To može uključivati zahtjeve za korištenjem
-propisanih sigurnosnih procedura, tehnologija, usklađenost sa pravnim
-okvirima i sl.
+NFZ-8 – Sustav će omogućiti korisniku prikaz pripadajućih podataka, ne i podataka drugih korisnika.
 
 ### Ostalo
 
-Navedite ostale nefunkcionalne zahtjeve koji nisu prethodno navedeni.
+Nema identificiranih dodatnih nefunkcionalnih zahtjeva.
 
 ## Skice zaslona 
 
