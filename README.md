@@ -41,6 +41,11 @@ PBZ | Privredna Banka Zagreb
 
 ### Reference 
 
+1. “830-1998 - IEEE Recommended Practice for Software Requirements Specifications.” IEEE, 1998.
+[Online]. Available: http://ieeexplore.ieee.org/servlet/opac?punumber=5841
+
+2. Model praćenja kolegija Programsko inženjerstvo, 2022, [Online]. Available:
+https://nastava.foi.hr/course/214467
 
 
 ### Struktura dokumenta
