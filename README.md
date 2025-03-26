@@ -240,10 +240,6 @@ Nema identificiranih dodatnih nefunkcionalnih zahtjeva.
 
 ## Skice zaslona 
 
-Vizualizirajte značajke interakcije između krajnjeg korisnika i softverskog
-rješenja kroz skice zaslona (engl. wireframe). Svrha skica je da na
-vizualan način predočimo i komuniciramo što aplikacija treba raditi, a ne
-da izradimo realan dizajn grafičkog sučelja. Pri tome skice možete na bilo
-koji način nacrtati (npr. ručno na papiru + slikanje s mobitelom, MS Paint,
-MS Word, Excel…)
+
+![Zadaca drawio](https://github.com/user-attachments/assets/a4edfd09-707d-4069-979c-66e1d854ea11)
 
