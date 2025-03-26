@@ -1,6 +1,6 @@
 # IPS_PI projekt: Sustav za praćenje osobnih financija
 
-## Uvod
+## 1.Uvod
 
 ### Svrha
 
@@ -50,9 +50,20 @@ https://nastava.foi.hr/course/214467
 
 ### Struktura dokumenta
 
-Ukratko opišite kako je ostatak dokumenta organiziran i što sadrži.
+U poglavlju 2 SPOF stavljamo u kontekst i opisujemo interakciju s korisnicima ali i
+drugim sustavima, softverskim rješenjima, hardverom, i komunikacijskim tehnologijama. Zatim, na
+sažet način opisujemo osnovne funkcije koje će Evaluation Manager izvršavati, karakteristike korisnika
+koji će koristiti softver, te ograničenja koja mogu utjecati na sam razvoj softverskog rješenja.
+U poglavlju 3 definiramo funkcionalne zahtjeve za Evaluation Manager na onoj razini detalja koja je
+dovoljna dizajnerima i programerima da započnu sa osmišljavanjem i implementacijom rješenja, te
+testerima da osmisle testne slučajeve.
+U poglavlju 4 definiramo nefunkcionalne zahtjeve za Evaluation Manager koje dizajneri i programeri
+trebaju uzeti u obzir prilikom osmišljavanja arhitekture, odabira implementacijskih tehnologija i
+pristupa.
+U poglavlju 5 vizualiziramo način interakcije korisnika s Evaluation Manager-om na način da skiciramo
+grafičko korisničko sučelje.
 
-## Općeniti opis
+## 2.Općeniti opis
 
 
 ### Perspektiva proizvoda
@@ -99,7 +110,7 @@ i izvoza podataka.
 ### Ostalo
 
 
-## Funkcionalni zahtjevi
+## 3.Funkcionalni zahtjevi
 
 Definirajte funkcionalne zahtjeve za softversko rješenja i to na način da
 pružite dovoljno informacija dizajnerima i programerima da mogu
@@ -210,7 +221,7 @@ U procesu razvoja aplikacije SPOF zahtjevi najvećeg prioriteta će biti
 razvijeni,dok će zahtjevi sa nižim prioritetom biti razvijeni u slučaju da 
 su ostali zahtjevi zadovoljeni prije roka za predaju projekta.
 
-## Nefunkcionalni zahtjevi
+## 4.Nefunkcionalni zahtjevi
 
 ### Izgled softvera
 
@@ -238,7 +249,7 @@ NFZ-8 – Sustav će omogućiti korisniku prikaz pripadajućih podataka, ne i po
 
 Nema identificiranih dodatnih nefunkcionalnih zahtjeva.
 
-## Skice zaslona 
+## 5.Skice zaslona 
 
 
 ![Zadaca drawio](https://github.com/user-attachments/assets/a4edfd09-707d-4069-979c-66e1d854ea11)
