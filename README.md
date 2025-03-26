@@ -50,17 +50,15 @@ https://nastava.foi.hr/course/214467
 
 ### Struktura dokumenta
 
-U poglavlju 2 SPOF stavljamo u kontekst i opisujemo interakciju s korisnicima ali i
-drugim sustavima, softverskim rješenjima, hardverom, i komunikacijskim tehnologijama. Zatim, na
-sažet način opisujemo osnovne funkcije koje će Evaluation Manager izvršavati, karakteristike korisnika
+U poglavlju 2 SPOF stavljamo u kontekst i opisujemo interakciju s korisnicima.
+Zatim, na sažet način opisujemo osnovne funkcije koje će aplikacija SPOF izvršavati, karakteristike korisnika
 koji će koristiti softver, te ograničenja koja mogu utjecati na sam razvoj softverskog rješenja.
-U poglavlju 3 definiramo funkcionalne zahtjeve za Evaluation Manager na onoj razini detalja koja je
+U poglavlju 3 definiramo funkcionalne zahtjeve za SPOF na onoj razini detalja koja je
 dovoljna dizajnerima i programerima da započnu sa osmišljavanjem i implementacijom rješenja, te
 testerima da osmisle testne slučajeve.
-U poglavlju 4 definiramo nefunkcionalne zahtjeve za Evaluation Manager koje dizajneri i programeri
-trebaju uzeti u obzir prilikom osmišljavanja arhitekture, odabira implementacijskih tehnologija i
-pristupa.
-U poglavlju 5 vizualiziramo način interakcije korisnika s Evaluation Manager-om na način da skiciramo
+U poglavlju 4 definiramo nefunkcionalne zahtjeve aplikacije SPOF koje dizajneri i programeri
+trebaju uzeti u obzir prilikom osmišljavanja arhitekture i odabira pristupa.
+U poglavlju 5 vizualiziramo način interakcije korisnika s aplikacijom SPOF na način da skiciramo
 grafičko korisničko sučelje.
 
 ## 2.Općeniti opis
@@ -112,34 +110,13 @@ i izvoza podataka.
 
 ## 3.Funkcionalni zahtjevi
 
-Definirajte funkcionalne zahtjeve za softversko rješenja i to na način da
-pružite dovoljno informacija dizajnerima i programerima da mogu
-započeti sa osmišljavanjem i implementacijom rješenja, a testerima da
-osmisle testne slučajeve. Zahtjevi navedeni ovdje se temelje na
-funkcijama proizvoda opisanim u poglavlju 2.2., ali su opisani s višom
-razinom detalja. Fokus je na funkciji i ograničenjima sustava. Svakom
-zahtjevu treba dodijeliti jedinstven identifikator. Zahtjeve je moguće 
-i grupirati po različitim kriterijima, kao npr. korisnicima (nastavnik,
-student, blagajnik, administrator…), slučaju korištenja, domenskim
-konceptima, i sl.
-Za svaki zahtjev potrebno je ispuniti sljedeću tablicu:
-
-
-Identifikator | Jedinstveni identifikator zahtjeva.
--|-
-Zahtjev | Opis zahtjeva u obliku „Sustav će omogućiti <funkcionalnost> <objekt> uz <ograničenja>“. Stil pisanja treba biti ujednačen. Prilikom formulacije vodite se prihvaćenim smjernicama za definiranje zahtjeva, kao npr. onima navedenim u INCOSE Smjernicama za pisanje zahtjeva.
-Obrazloženje | Obrazloženje zašto zahtjev postoji/zašto je potreban.
-Način provjere | Kriterij provjere ili testni scenarij koji će omogućiti utvrđivanje je li zahtjev ispunjen ili nije.
-Prioritet [1-5] | Prioritet zahtjeva (1 – najveći prioritet, 5 najmanji prioritet)
-Izvor/Porijeklo | Naziv dokumenta kojim je zahtjev propisan ili dionika koji je podnio zahtjev.
-
 Identifikator | FZ-1
 -|-
 Zahtjev | Sustav će omogućiti pristup samo autentificiranim korisnicima
 Obrazloženje | SPOF mora ograničiti pristup osjetljivim podacima korisnika tako da ih samo isti smije čitati i unositi.
 Način provjere | Upis ispravnih korisničkih podataka treba rezultirati uspješnom autentifikacijom i omogućiti korisniku daljnji rad u sustavu. U slučaju neispravnih korisničkih podataka autentifikacija treba biti neuspješna i neće biti moguć rad u sustavu.
 Prioritet [1-5] | 1
-Izvor/Porijeklo | Nastavnici na kolegiju Programsko inženjerstvo
+Izvor/Porijeklo | Student
 
 Identifikator | FZ-2
 -|-
@@ -147,7 +124,7 @@ Zahtjev | Sustav će omogućiti ručni unos i pohranu prihoda korisnika
 Obrazloženje | SPOF mora imati mogućnost unosa prihoda korisnika po kategoriji pomoću forme za unos koji će se pohraniti u bazu podataka.
 Način provjere | Upisani iznos mora biti broj - novčani iznos ograničen na dvije decimale, korisnik mora unjeti kategoriju prihoda.
 Prioritet [1-5] | 1
-Izvor/Porijeklo | Nastavnici na kolegiju Programsko inženjerstvo
+Izvor/Porijeklo | Student
 
 Identifikator | FZ-3
 -|-
@@ -155,7 +132,7 @@ Zahtjev | Sustav će omogućiti unos i pohranu rashoda korisnika
 Obrazloženje | SPOF mora imati mogućnost unosa rashoda korisnika po kategoriji pomoću forme za unos koji će se pohraniti u bazu podataka.
 Način provjere | Upisani iznos mora biti broj - novčani iznos ograničen na dvije decimale, korisnik mora unjeti kategoriju rashoda.
 Prioritet [1-5] | 1
-Izvor/Porijeklo | Nastavnici na kolegiju Programsko inženjerstvo
+Izvor/Porijeklo | Student
 
 Identifikator | FZ-4
 -|-
@@ -163,7 +140,7 @@ Zahtjev | Sustav će omogućiti tablični prikaz prihoda i rashoda korisnika
 Obrazloženje | SPOF mora imati mogućnost tabličnog prikaza unesenih prihoda i rashoda.
 Način provjere | -
 Prioritet [1-5] | 1
-Izvor/Porijeklo | Nastavnici na kolegiju Programsko inženjerstvo
+Izvor/Porijeklo | Student
 
 Identifikator | FZ-5
 -|-
@@ -171,7 +148,7 @@ Zahtjev | Sustav će omogućiti pie-chart prikaz rashoda
 Obrazloženje | SPOF mora imati mogućnost grafičkog prikaza rashoda u obliku pie-charta.
 Način provjere | -
 Prioritet [1-5] | 1
-Izvor/Porijeklo | Nastavnici na kolegiju Programsko inženjerstvo
+Izvor/Porijeklo | Student
 
 Identifikator | FZ-6
 -|-
@@ -179,7 +156,7 @@ Zahtjev | Sustav će omogućiti pie-chart prikaz prihoda
 Obrazloženje | SPOF mora imati mogućnost grafičkog prikaza prihoda u obliku pie-charta.
 Način provjere | -
 Prioritet [1-5] | 1
-Izvor/Porijeklo | Nastavnici na kolegiju Programsko inženjerstvo
+Izvor/Porijeklo | Student
 
 Identifikator | FZ-7
 -|-
@@ -187,7 +164,7 @@ Zahtjev | Sustav će omogućiti grafički prikaz usporednih trendova prihoda i r
 Obrazloženje | SPOF mora imati mogućnost grafičkog prikaza usporednih trendova prihoda i rashoda kroz vrijeme u jednom grafu.
 Način provjere | -
 Prioritet [1-5] | 1
-Izvor/Porijeklo | Nastavnici na kolegiju Programsko inženjerstvo
+Izvor/Porijeklo | Student
 
 
 Identifikator | FZ-8
@@ -196,7 +173,7 @@ Zahtjev | Sustav će omogućiti grafički prikaz usporednih trendova prihoda po 
 Obrazloženje | SPOF mora imati mogućnost grafičkog prikaza usporednih trendova prihoda po kategorijama kroz vrijeme u jednom grafu.
 Način provjere | -
 Prioritet [1-5] | 2
-Izvor/Porijeklo | Nastavnici na kolegiju Programsko inženjerstvo
+Izvor/Porijeklo | Student
 
 Identifikator | FZ-9
 -|-
@@ -204,7 +181,7 @@ Zahtjev | Sustav će omogućiti grafički prikaz usporednih trendova rashoda po 
 Obrazloženje | SPOF mora imati mogućnost grafičkog prikaza usporednih trendova rashoda po kategorijama kroz vrijeme u jednom grafu.
 Način provjere | -
 Prioritet [1-5] | 2
-Izvor/Porijeklo | Nastavnici na kolegiju Programsko inženjerstvo
+Izvor/Porijeklo | Student
 
 Identifikator | FZ-10
 -|-
@@ -212,7 +189,7 @@ Zahtjev | Sustav će omogućiti generiranje izvještaja
 Obrazloženje | SPOF mora imati mogućnost generiranja izvještaja po kategoriji i vremenskom razdoblju, izvještaji se kreiraju kroz formu na grafičkom sučelju.
 Način provjere | Forma ne omogućava slobodan unos vrijednosti, u slučaju da nema podataka u periodu ili kategoriji izvještaj je prazan
 Prioritet [1-5] | 1
-Izvor/Porijeklo | Nastavnici na kolegiju Programsko inženjerstvo
+Izvor/Porijeklo | Student
 
 
 ### Dinamika realizacije zahtjeva
